@@ -39,7 +39,7 @@ main {
     align-items: center;
 }
 
-.mainSection {
+.inputSection {
     padding: 1rem;
 
     color: var(--white);
