@@ -39,7 +39,7 @@ main {
     align-items: center;
 }
 
-.inputSection {
+.mainSection {
     padding: 1rem;
 
     color: var(--white);
@@ -48,8 +48,11 @@ main {
     border-radius: 0.25rem;
 }
 
-.getIpDetailsButtonGroup {
+.inputSection {
     margin-bottom: 1rem;
+}
+
+.getIpDetailsButtonGroup {
     display: flex;
     justify-content: center;
     gap: 0.25rem;
