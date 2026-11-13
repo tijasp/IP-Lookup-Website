@@ -16,6 +16,7 @@ You can explore it by interacting with a command line interface.
 -   **HTML5** - Page structure.
 -   **CSS3** - Styling and terminal layout.
 -   **JavaScript** - API Fetching and DOM modifications.
+-   **API** - ip-api.com to get IPs infos.
 
 
 ## 🚀 Getting started
