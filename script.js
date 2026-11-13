@@ -24,7 +24,7 @@ function verifyIpInput() {
     if (ipRegex.test(ip)) {
         lookupIp(ip)
             .then((data) => {
-                if (data["status" === "success"]) {
+                if (data["status"] === "success") {
                     showIpDetails(data)
                 } else {
                     invalidIpMessage();
