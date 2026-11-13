@@ -1,8 +1,8 @@
 :root {
     /* Colors */
-    --background-color: #1c1b1f;
+    --black: #1c1b1f;
     --dark-grey: #292929;
-    --blue: #305edd;
+    --blue: #5782f9;
     --white: #ffffff;
 }
 
@@ -12,65 +12,41 @@
 }
 
 body {
-    font-family: "Ubuntu";
-    background-color: var(--background-color);
-}
-
-header {
-    padding: 1rem;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 
-    font-size: 1rem;
+    font-family: "Ubuntu";
     color: var(--white);
     background-color: var(--dark-grey);
-    border-bottom: 3px solid var(--blue);
-}
-
-a {
-    color: var(--white);
-    text-decoration: none;
 }
 
 main {
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.mainSection {
     padding: 1rem;
 
-    color: var(--white);
-    background-color: var(--dark-grey);
+    background-color: var(--black);
     border: 3px solid var(--blue);
-    border-radius: 0.25rem;
 }
 
-.inputSection {
-    margin-bottom: 1rem;
+li {
+    list-style-type: none;
 }
 
-.getIpDetailsButtonGroup {
-    display: flex;
-    justify-content: center;
-    gap: 0.25rem;
-}
 
-#getIpDetailsButton {
+#searchButton {
     padding: 0.25rem 0.5rem;
 
     font-size: 1.5rem;
     font-weight: 700;
-    color: #fff;
+    color: var(--white);
     background-color: var(--blue);
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
 }
 
-#getIpDetailsButton:hover {
+#searchButton:hover {
     opacity: 0.7;
 }
 
@@ -82,6 +58,16 @@ main {
     border-radius: 0.25rem;
 }
 
-li {
-    list-style-type: none;
+#infoContainer {
+    margin-top: 0.5rem;
+}
+
+.ipInfo {
+    color: var(--blue);
+}
+
+.ipInfo span {
+    padding-left: 0.5rem;
+    color: var(--white);
+    font-weight: 500;
 }
